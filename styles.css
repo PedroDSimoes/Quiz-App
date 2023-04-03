@@ -1,0 +1,104 @@
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #question-container {
+    margin: 3.125rem auto;
+    padding: 1.25rem;
+  }
+  
+  #question {
+    font-size: 1.5rem;
+    margin-bottom: 3.125rem;
+    text-align: center;
+  }
+  
+  #choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  button {
+    background-color: #9f6819; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 0.9375rem 2rem; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as a block */
+    font-size: 1rem; /* Font size */
+    margin: 0.25rem 0.5rem; /* Margin between buttons */
+    cursor: pointer; /* Add cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #836b41; /* Dark green background on hover */
+  }
+  
+  #btncontainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.125rem;
+  }
+  
+  #play-again {
+    margin: 1.25rem auto;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.3125rem;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: bold;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #play-again:hover {
+    background-color: #c62828;
+  }
+  
+  #score {
+    margin: 1.25rem auto;
+    max-width: 37.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #timer {
+    text-align: center;
+    margin-bottom: 0.625rem;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .choices-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 800px ) {
+    
+    #btncontainer {
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem auto;
+      }
+
+      button {
+        margin: 1.5rem auto;
+      }
+
+      
+  .choices-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
